@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="353.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+   <children>
+      <Button layoutX="243.0" layoutY="291.0" mnemonicParsing="false" text="Ejecutar Sentencia" />
+      <TextArea layoutX="65.0" layoutY="32.0" prefHeight="110.0" prefWidth="469.0" />
+      <TextArea layoutX="65.0" layoutY="154.0" prefHeight="110.0" prefWidth="469.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="374.0" prefWidth="519.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examenaccesomysql.FXMLDocumentController">
+   <children>
+      <TextField fx:id="textId" layoutX="120.0" layoutY="33.0" />
+      <TextField fx:id="textCiudad" layoutX="120.0" layoutY="90.0" />
+      <TextField fx:id="textCodigo" layoutX="120.0" layoutY="148.0" />
+      <TextField fx:id="textDistrito" layoutX="120.0" layoutY="202.0" />
+      <TextField fx:id="textPoblacion" layoutX="120.0" layoutY="259.0" />
+      <Label layoutX="120.0" layoutY="16.0" text="ID:" />
+      <Label layoutX="120.0" layoutY="73.0" text="Ciudad:" />
+      <Label layoutX="117.0" layoutY="131.0" text="Código de la ciudad:" />
+      <Label layoutX="118.0" layoutY="185.0" text="Distrito:" />
+      <Label layoutX="118.0" layoutY="242.0" text="Población:" />
+      <Button layoutX="122.0" layoutY="312.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="68.0" text="&lt;" />
+      <Button layoutX="202.0" layoutY="312.0" mnemonicParsing="false" onAction="#next" prefHeight="25.0" prefWidth="68.0" text="&gt;" />
+      <Button layoutX="374.0" layoutY="36.0" mnemonicParsing="false" onAction="#configurar" text="Configuración" />
+      <Button layoutX="347.0" layoutY="84.0" mnemonicParsing="false" onAction="#consultabruta" text="Consultas en bruto" />
+      <Label fx:id="ayuda" layoutX="391.0" layoutY="165.0" text="Ayuda" />
+   </children>
+</AnchorPane>
